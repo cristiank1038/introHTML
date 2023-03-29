@@ -1,0 +1,103 @@
+/*
+
+elemento {
+    propiedad: valor;
+}
+
+.clase {
+    propiedad: valor;
+}
+
+#id {
+    propiedad: valor;
+}
+
+*/
+
+h1 {
+    color: red;
+}
+
+p {
+    border: 1px solid;
+}
+
+.azulito {
+    color: blue;
+}
+
+#purple { /*ID TIENE PRIORIDAD*/
+    color: purple;
+}
+
+#parrafo {
+    border: 1px dotted;
+    border-radius: 20px;
+}
+
+p strong { /*Un strong que esté detnro de clase párrafo*/
+    text-transform: uppercase;
+}
+
+.container > p { /*Descendiente directo*/
+    text-decoration: underline;
+}
+
+h3.azulito {
+    color: green;
+}
+
+input[type="text"] {
+    width: 350px;
+}
+
+input[type="number"] {
+    height: 50px;
+}
+
+/*COLOR*/
+.color {
+    color: #983c98;
+    background-color: #0000ff;
+}
+
+.color2 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
+}
+
+/*TEXTO*/
+#texto {
+    text-align: center; /*left, right, center, justify*/
+    text-decoration: line-through; /*underline, line-through, none, overline*/
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px; /*px, pt, em*/
+}
+
+/*TAMAÑOS*/
+ul {
+    background-color: darksalmon;
+    width: 400px;
+    height: 500px;
+}
+
+/*BACKGROUND*/
+.div_background {
+    width: 400px;
+    height: 600px;
+    border: 1px solid black;
+    background-color: aqua;
+    background-image: url("../images/gatito_small.jpg");
+    background-size: 100%; /*COVER: Estira mi imagen para que cubra al contenedor; 100% me pone al 100% mi imagen*/
+    background-repeat: no-repeat;
+}
+
+/*BOX MODEL*/
+.box_model {
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    margin: 10px;
+    padding: 20px;
+}
